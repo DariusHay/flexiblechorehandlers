@@ -46,3 +46,27 @@ nav ul li {
 .navbar-toggler{
 	box-shadow: none !important
 }
+
+/****************************** Header *****************************/
+
+.header-wrapper {
+  position: relative;
+  /* background: url(./Images/home-pic.jpg); */
+  background-size: contain;
+  background-position: center;
+  height: 60vh;
+}
+
+.main-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: "Roboto Condesed";
+}
+
+.main-info h1 {
+  color: #fff;
+  text-transform: uppercase;
+}
