@@ -23,11 +23,11 @@ const Navbar = () => {
                         <li className={location.pathname === "/about-owner" ? "nav-item active" : "nav-item"}>
                             <a className="nav-link" href="/about-owner">About Owner</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Services</a>
+                        <li className={location.pathname === "/services" ? "nav-item active" : "nav-item"}>
+                            <a className="nav-link" href="/services">Services</a>
                         </li>
-                        <li className="nav-item">
-                            <a className="nav-link" href="#">Contact</a>
+                        <li className={location.pathname === "/contact" ? "nav-item active" : "nav-item"}>
+                            <a className="nav-link" href="/contact">Contact</a>
                         </li>
                     </ul>
                 </div>
