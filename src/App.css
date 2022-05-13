@@ -39,6 +39,10 @@ nav ul li {
   border-top: 0.1875rem solid var(--primary-orange);
 }
 
+.navbar-nav > .active > a {
+  border-top: 0.1875rem solid var(--primary-orange);
+}
+
 .navbar-nav > li > a:hover {
   border-top: 0.1875rem solid var(--primary-orange);
 }
@@ -92,7 +96,7 @@ nav ul li {
 
 /*--------- Header Main Offer Button -------------*/
 .btn-main-offer {
-  border: 1px solid var(--primary-red);
+  border: 1px solid var(--primary-orange);
   text-transform: uppercase;
   border-radius: 0;
   padding: 0.625rem 0.75rem 0.75rem 0.75rem;
@@ -103,8 +107,107 @@ nav ul li {
 
 .btn-main-offer:hover {
   text-decoration: none;
-  background-color: var(--primary-hover-red);
+  background-color: var(--primary-orange);
   color: var(--primary-white);
   transition: .2s ease-in-out;
 }
 
+/****************************** Home Content *****************************/
+
+.section {
+  padding-top: 2.5rem;
+  padding-bottom: 3.5rem;
+  font-family: "Roboto Condesed", sans-serif;
+}
+
+.main-heading {
+  font-size: 2rem;
+}
+
+.underline {
+  height: 0.25rem;
+  width: 4rem;
+  background-color: var(--primary-orange);
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.btn-about-us {
+  border: 1px solid var(--primary-orange);
+  background-color: var(--primary-orange);
+  text-transform: uppercase;
+  border-radius: 0;
+  padding: 0.625rem 0.75rem 0.75rem 0.75rem;
+  color: black;
+  text-decoration: none;
+  margin-top: 1rem;
+}
+
+.btn-about-us:hover {
+  text-decoration: none;
+  background-color: black;
+  color: var(--primary-white);
+  transition: .2s ease-in-out;
+}
+
+/* ------ External Info --------- */
+.External-Info{
+  background-color: lightgray;
+}
+
+.external-info {
+  font-family: "Roboto Condesed", sans-serif;
+}
+
+.llcImage {
+  border-radius: 70%;
+  border: 5px solid var(--primary-orange);
+  max-width: 100%;
+}
+
+/****************************** Footer *****************************/
+
+.fa-facebook {
+  font-size: 30px;
+  width: 70px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: auto;
+}
+
+.fa-copyright {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin: auto;
+}
+
+.footer-links {
+  color: #fff;
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.footer-links:hover {
+  color: grey;
+}
+
+/*************************************************************************************************/
+/****************************************** About Owner ******************************************/
+
+.carousel-inner > .carousel-item > img {
+  width:640px;
+  height:360px;
+}
+
+.number {
+  color: black;
+  /* text-decoration: none !important; */
+  cursor: pointer;
+}
+
+.number:hover {
+  color: grey;
+}
