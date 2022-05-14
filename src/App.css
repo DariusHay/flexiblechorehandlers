@@ -155,6 +155,8 @@ nav ul li {
   background-color: lightgray;
 }
 
+
+
 .external-info {
   font-family: "Roboto Condesed", sans-serif;
 }
@@ -163,15 +165,18 @@ nav ul li {
   border-radius: 70%;
   border: 5px solid var(--primary-orange);
   max-width: 100%;
+  box-shadow: 20px -10px 20px #ccc;
 }
 .about-Image {
   border-radius: 70%;
   border: 3px solid black;
   max-width: 100%;
+  box-shadow: 10px 0px 20px black;
 }
 .aboutImage {
   border: 3px solid black;
   max-width: 100%;
+  box-shadow: 10px -10px 20px black;
 }
 /****************************** Footer *****************************/
 
@@ -229,4 +234,12 @@ nav ul li {
   height: 400px;
   margin: auto;
   max-width: 100%;
+}
+
+.form-control {
+	box-shadow: none !important;
+}
+
+.form-control:focus {
+  border-color: var(--primary-orange) !important;
 }

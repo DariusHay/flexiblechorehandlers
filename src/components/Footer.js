@@ -15,8 +15,8 @@ const Footer = () => {
                         <hr/>
                         <a href="/" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>Home</a>
                         <a href="/about-owner" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>About Owner</a>
-                        <a className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>Services</a>
-                        <a className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex", marginBottom: "30px" }}>Contact</a>
+                        <a href="/services" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>Services</a>
+                        <a href="/contact" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex", marginBottom: "30px" }}>Contact</a>
                     </div>
                     <div className="col-md-4">
                         <h6 style={{ textAlign:"center" }}>Contacts</h6>

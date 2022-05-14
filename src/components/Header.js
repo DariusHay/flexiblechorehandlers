@@ -16,7 +16,7 @@ const Header = () => {
         backSpeed={60}
         loop
         />
-        <a href='#' className="btn-main-offer">Contact Us</a>
+        <a href='/contact' className="btn-main-offer">Contact Us</a>
       </div>
     </div>
   )

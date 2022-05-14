@@ -16,7 +16,6 @@ const Services = () => {
             <div className="External-Info" style={{ paddingTop: "100px", paddingBottom: "50px" }}>
                 <div className="container">
                     <div className="row">
-
                         <h1 className="services-main text-center">
                             Our Services
                             </h1>
