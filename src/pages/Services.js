@@ -1,4 +1,14 @@
-import React from 'react'
+import React from 'react';
+import floor1 from '../components/Images/floor1.jpg';
+import floor2 from '../components/Images/floor2.jpg';
+import floor3 from '../components/Images/floor3.jpg';
+import floor4 from '../components/Images/floor4.jpg';
+import floor5 from '../components/Images/floor5.jpg';
+import floor6 from '../components/Images/floor6.jpeg';
+import floor7 from '../components/Images/floor7.jpeg';
+import floor8 from '../components/Images/floor8.jpeg';
+import tree1 from '../components/Images/tree1.jpg';
+import tree2 from '../components/Images/tree2.jpg';
 
 const Services = () => {
     return (
@@ -15,8 +25,8 @@ const Services = () => {
                         <p style={{ marginBottom: "50px" }} className="services-main text-center"><i>Click Service for Details</i></p>
                     </div>
                     <div className="row mx-auto">
-                        
-                        <div className="col-md-6">
+                        <div className="col-md-1"></div>
+                        <div className="col-md-5">
 
                             <p>
                                 <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
@@ -144,16 +154,17 @@ const Services = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="col-md-6">
+                        <div className="col-md-2"></div>
+                        <div className="col-md-4">
                             <p>
                                 <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                metal pick up service
+                                    metal pick up service
                                 </a>
                             </p>
                             <div className="collapse" id="collapseExample10">
                                 <div className="card card-body">
                                     <h5>Duration varies · Free</h5>
-                                    Any items of metal will be picked up and promptly recycled to better help recover our resources. 
+                                    Any items of metal will be picked up and promptly recycled to better help recover our resources.
                                     Thank you in advance for any help as it is a necessary service to help fund our business performance as well as service needs for our customers.
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
@@ -161,13 +172,13 @@ const Services = () => {
                             </div>
                             <p style={{ marginTop: "50px" }}>
                                 <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                Tree Work
+                                    Tree Work
                                 </a>
                             </p>
                             <div className="collapse" id="collapseExample11">
                                 <div className="card card-body">
                                     <h5>Duration varies · Price varies</h5>
-                                    Free estimates depending on location. We love what we do and take pride in making Florida Beautiful. 
+                                    Free estimates depending on location. We love what we do and take pride in making Florida Beautiful.
                                     Our owner will personally make sure your needs are met and that you are happy with my service. Email for more information.
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
@@ -175,13 +186,13 @@ const Services = () => {
                             </div>
                             <p style={{ marginTop: "50px" }}>
                                 <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                storage needs
+                                    storage needs
                                 </a>
                             </p>
                             <div className="collapse" id="collapseExample12">
                                 <div className="card card-body">
                                     <h5>Duration varies · $50</h5>
-                                    Price is monthly. We are located in Rockledge FL 32955. 
+                                    Price is monthly. We are located in Rockledge FL 32955.
                                     Email for space needed and availability, thank you.
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
@@ -189,14 +200,14 @@ const Services = () => {
                             </div>
                             <p style={{ marginTop: "50px" }}>
                                 <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample13" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                Power Washing
+                                    Power Washing
                                 </a>
                             </p>
                             <div className="collapse" id="collapseExample13">
                                 <div className="card card-body">
                                     <h5>Duration varies · Prices varies</h5>
-                                    Power Washing prices vary due to location and square footage. 
-                                    We use what is needed to make your porch, deck, dock, and more look as if it was just built or installed. 
+                                    Power Washing prices vary due to location and square footage.
+                                    We use what is needed to make your porch, deck, dock, and more look as if it was just built or installed.
                                     We service Brevard county. Please email for any questions.
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
@@ -204,13 +215,13 @@ const Services = () => {
                             </div>
                             <p style={{ marginTop: "50px" }}>
                                 <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample14" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                lawn care service
+                                    lawn care service
                                 </a>
                             </p>
                             <div className="collapse" id="collapseExample14">
                                 <div className="card card-body">
                                     <h5>Duration varies · $100</h5>
-                                    The $100.00 pricing is monthly. We provide excellence in making your yard perfect. Mowing, Weed Eating, Edging and more can be provided at your convenience. 
+                                    The $100.00 pricing is monthly. We provide excellence in making your yard perfect. Mowing, Weed Eating, Edging and more can be provided at your convenience.
                                     We service the Brevard County area. Please email for scheduling and any additional information.
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
@@ -218,13 +229,13 @@ const Services = () => {
                             </div>
                             <p style={{ marginTop: "50px" }}>
                                 <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                vehicle storage
+                                    vehicle storage
                                 </a>
                             </p>
                             <div className="collapse" id="collapseExample15">
                                 <div className="card card-body">
                                     <h5>Duration varies · $50</h5>
-                                    $50.00 a month storage for everything from motorcycles, cars, to RV's. 
+                                    $50.00 a month storage for everything from motorcycles, cars, to RV's.
                                     Storage area is located in Rockledge Florida 32955. Please Email for any additional information.
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
@@ -232,13 +243,13 @@ const Services = () => {
                             </div>
                             <p style={{ marginTop: "50px" }}>
                                 <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample16" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                Dance Floor Rentals
+                                    Dance Floor Rentals
                                 </a>
                             </p>
                             <div className="collapse" id="collapseExample16">
                                 <div className="card card-body">
                                     <h5>Duration varies · Price varies</h5>
-                                    A dark oak dance floor rental is an amazing add-on to any special occasion with great music. 
+                                    A dark oak dance floor rental is an amazing add-on to any special occasion with great music.
                                     The price varies by location and hours/days needed. Please email for additional information.
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
@@ -246,21 +257,105 @@ const Services = () => {
                             </div>
                             <p style={{ marginTop: "50px" }}>
                                 <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample17" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                Carpet cleaning
+                                    Carpet cleaning
                                 </a>
                             </p>
                             <div className="collapse" id="collapseExample17">
                                 <div className="card card-body">
                                     <h5>Duration varies · Starting at $90</h5>
-                                    Pure clean carpet cleaning by your friendly neighborhood handyman is a dedicated and 
-                                    trustworthy service that strives in customer satisfaction. Email for consultation. 
+                                    Pure clean carpet cleaning by your friendly neighborhood handyman is a dedicated and
+                                    trustworthy service that strives in customer satisfaction. Email for consultation.
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
                             </div>
+                            <p style={{ marginTop: "50px", marginBottom: "50px" }} className="services-main"><i>If you need any services that aren't listed here feel free to give us
+                            a call at <a style={{ textDecoration: "none" }} className="number" href="tel:3215499824">321-549-9824</a> and we may be able to provide it for you.</i></p>
                         </div>
                     </div>
-
+                    <div className="row">
+                        <h1 className="services-main text-center">
+                            Some of Our Work
+                            </h1>
+                        <div className="underline mx-auto" style={{ marginTop: "10px", marginBottom: "20px", width: "220px" }}></div>
+                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="6" aria-label="Slide 7"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
+                                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
+                            </div>
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img src={tree1} class="d-flex centered" alt="..." />
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Tree Cutting</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={tree2} class="d-block" alt="..." />
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Tree Cutting</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={floor1} class="d-block" alt="..." />
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Floor Remodeling</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={floor3} class="d-block" alt="..." />
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Hardwood Floors</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={floor4} class="d-block" alt="..." />
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Floor Remodeling</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={floor5} class="d-block" alt="..." />
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Floor Remodeling</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={floor6} class="d-block" alt="..." />
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Floor Remodeling</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={floor7} class="d-block" alt="..." />
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Hardwood Floors</h5>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <img src={floor8} class="d-block" alt="..." />
+                                    <div class="carousel-caption d-none d-md-block">
+                                        <h5>Floor Remodeling</h5>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -16,16 +16,16 @@ const Footer = () => {
                         <a href="/" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>Home</a>
                         <a href="/about-owner" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>About Owner</a>
                         <a className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>Services</a>
-                        <a className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>Contact</a>
+                        <a className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex", marginBottom: "30px" }}>Contact</a>
                     </div>
                     <div className="col-md-4">
                         <h6 style={{ textAlign:"center" }}>Contacts</h6>
                         <hr/>
                         <a className="footer-links" href="mailto:now.work.ready321@gmail.com" target="_blank" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>now.work.ready321@gmail.com</a>
-                        <a className="footer-links" href="tel:3215499824" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>321-549-9824</a>
+                        <a className="footer-links" href="tel:3215499824" style={{ margin: "auto", justifyContent: "center", display: "flex", marginBottom: "30px" }}>321-549-9824</a>
                     </div>
                 </div>
-                <div className="row" style={{ marginTop: "30px" }}>
+                <div className="row">
                         <i className="fa fa-copyright">&nbsp;2022 Flexible Chore Handlers</i>
                 </div>
             </div>
