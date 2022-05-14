@@ -164,7 +164,15 @@ nav ul li {
   border: 5px solid var(--primary-orange);
   max-width: 100%;
 }
-
+.about-Image {
+  border-radius: 70%;
+  border: 3px solid black;
+  max-width: 100%;
+}
+.aboutImage {
+  border: 3px solid black;
+  max-width: 100%;
+}
 /****************************** Footer *****************************/
 
 .fa-facebook {
