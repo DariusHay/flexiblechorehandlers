@@ -2,7 +2,7 @@
   "name": "flexiblefloorhandlers",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://dariushay.github.io/flexiblefloorhandlers",
+  "homepage": "https://dariushay.github.io/flexiblechorehandlers",
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
     "@fortawesome/fontawesome-svg-core": "^6.1.1",
