@@ -27,7 +27,7 @@ const Contact = () => {
                                         <label className="external-info mb-1">Full Name</label>
                                         <input type="text" className="form-control" name="name" placeholder="Enter full name" required/>
                                    
-                                    
+                                        <input type="hidden" name="_next" value="https://dariushay.github.io/flexiblechorehandlers/"></input>
                                         <label className="external-info mb-1">Phone Number</label>
                                         <input type="text" className="form-control" name="phone" placeholder="Enter your phone number" required/>
                                

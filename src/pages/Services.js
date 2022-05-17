@@ -32,11 +32,17 @@ const Services = () => {
 
                             <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
                                 <li><a className="dropdown-item" href="#carpetCleaning">Carpet Cleaning</a></li>
+                                <li><a className="dropdown-item" href="#caulking">Caulking</a></li>
                                 <li><a className="dropdown-item" href="#cleaning">Carpet Cleaning/ Floor Cleaning</a></li>
+                                <li><a className="dropdown-item" href="#concreteRepair">Concrete Repair</a></li>
                                 <li><a className="dropdown-item" href="#Dance">Dance Floor Rentals</a></li>
+                                <li><a className="dropdown-item" href="#drywall">Drywall Repair</a></li>
+                                <li><a className="dropdown-item" href="#extCleaning">Exterior & Interior Cleaning</a></li>
                                 <li><a className="dropdown-item" href="#carpet">Flooring Repairs & More</a></li>
                                 <li><a className="dropdown-item" href="#gutter">Gutter Installations</a></li>
+                                <li><a className="dropdown-item" href="#insulation">Insulation</a></li>
                                 <li><a className="dropdown-item" href="#flooring">Lawn Care Service</a></li>
+                                <li><a className="dropdown-item" href="#layingFloor">Laying Floors</a></li>
                                 <li><a className="dropdown-item" href="#metal">Metal Pick up Service</a></li>
                                 <li><a className="dropdown-item" href="#lawn"> Power Washing</a></li>
                                 <li><a className="dropdown-item" href="#roofing"> Roofing Needs</a></li>
@@ -44,6 +50,7 @@ const Services = () => {
                                 <li><a className="dropdown-item" href="#screen"> Screen Enclosure Repair</a></li>
                                 <li><a className="dropdown-item" href="#running">Soffit Work</a></li>
                                 <li><a className="dropdown-item" href="#storage">Storage Needs</a></li>
+                                <li><a className="dropdown-item" href="#tireCleaning">Tire Cleaning and Repair</a></li>
                                 <li><a className="dropdown-item" href="#tree">Tree Work</a></li>
                                 <li><a className="dropdown-item" href="#tv">TV Wall Mounting</a></li>
                                 <li><a className="dropdown-item" href="#vehicle">Vehicle Storage</a></li>
@@ -55,7 +62,7 @@ const Services = () => {
                     <div className="row mx-auto">
                         <div className="col-md-1"></div>
                         <div className="col-md-5">
-                            <p id="Dance">
+                            <p id="concreteRepair">
                                 <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample17" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     Carpet cleaning
                                 </a>
@@ -65,6 +72,19 @@ const Services = () => {
                                     <h5>Duration varies · Starting at $90</h5>
                                     Pure clean carpet cleaning by your friendly neighborhood handyman is a dedicated and
                                     trustworthy service that strives in customer satisfaction. Email for consultation.
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
+                            <p style={{ marginTop: "50px" }}>
+                                <a  id="Dance" className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample18" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Concrete Repair
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample18">
+                                <div className="card card-body">
+                                    <h5>Duration varies · Prices varies</h5>
+                                    Patch Cracks & Holes in Concrete. Call or Email for more details.
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
@@ -153,7 +173,7 @@ const Services = () => {
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
                             </div>
-                            <p id="wooden" style={{ marginTop: "50px" }}>
+                            <p id="tireCleaning" style={{ marginTop: "50px" }}>
                                 <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     TV wall mounting
                                 </a>
@@ -167,8 +187,21 @@ const Services = () => {
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
                             </div>
+                            <p style={{ marginTop: "50px" }}>
+                                <a id="wooden" className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample21" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Tire Cleaning & Repair
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample21">
+                                <div className="card card-body">
+                                    <h5>Duration varies · Prices varies</h5>
+                                    Please call or email for more details about this service. Thanks
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
                             <p style={{ marginTop: "50px", marginBottom: "50px" }}>
-                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                <a id="layingFloor" className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     Wooden Privacy Fence Stain & Seal
                                 </a>
                             </p>
@@ -180,10 +213,23 @@ const Services = () => {
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
                             </div>
+                            <p style={{ marginTop: "50px", marginBottom: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample23" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Laying Floors
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample23">
+                                <div className="card card-body">
+                                    <h5>Duration varies · Price varies</h5>
+                                    Laying Carpet, vinyl, wood, tile or laminate. Call or Email for more Details.
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
                         </div>
                         <div className="col-md-2"></div>
                         <div className="col-md-4">
-                            <p id="carpet">
+                            <p id="caulking">
                                 <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     Carpet cleaning/ Floor cleaning
                                 </a>
@@ -193,6 +239,19 @@ const Services = () => {
                                     <h5>Duration varies · Price varies</h5>
                                 Carpet cleaning/Floor cleaning pricing is by the square footage. $0.53 per square.
                                 Extra charges may apply if there is a need to replace any flooring that has permanent stains and or existing damage. Please email to start consultation.
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
+                            <p style={{ marginTop: "50px"}} id="carpet">
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample19" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Caulking
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample19">
+                                <div className="card card-body">
+                                    <h5>Duration varies · Price varies</h5>
+                                    Call or Email for more deatils about this service. Thanks
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
@@ -283,7 +342,7 @@ const Services = () => {
                                 </div>
                             </div>
                             <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                <a id="drywall" className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     vehicle storage
                                 </a>
                             </p>
@@ -292,6 +351,45 @@ const Services = () => {
                                     <h5>Duration varies · $50</h5>
                                     $50.00 a month storage for everything from motorcycles, cars, to RV's.
                                     Storage area is located in Rockledge Florida 32955. Please Email for any additional information.
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
+                            <p style={{ marginTop: "50px" }}>
+                                <a id="extCleaning" className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample20" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Drywall Repair
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample20">
+                                <div className="card card-body">
+                                    <h5>Duration varies · Prices varies</h5>
+                                    Please call or email for more details about this service. Thanks
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
+                            <p style={{ marginTop: "50px" }}>
+                                <a id="insulation" className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample22" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                Exterior & Interior Cleaning
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample22">
+                                <div className="card card-body">
+                                    <h5>Duration varies · Prices varies</h5>
+                                    Please call or email for more details about this service. Thanks
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
+                            <p style={{ marginTop: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample24" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                Insulation
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample24">
+                                <div className="card card-body">
+                                    <h5>Duration varies · Prices varies</h5>
+                                    Please call or email for more details about this service. Thanks
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
