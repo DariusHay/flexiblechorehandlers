@@ -15,7 +15,7 @@ function App() {
         <Navbar />
         <Routes>
         <Route exact path="/flexiblefloorhandlers/" element={<Home />} />
-        <Route exact path="/flexiblefloorhandlers/about-owner" element={<AboutOwner />} />
+        <Route path="/about-owner" element={<AboutOwner />} />
         <Route exact path="/flexiblefloorhandlers/services" element={<Services />} />
         <Route exact path="/flexiblefloorhandlers/contact" element={<Contact />} />
         </Routes>

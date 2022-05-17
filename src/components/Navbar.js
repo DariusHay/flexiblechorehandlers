@@ -20,8 +20,8 @@ const Navbar = () => {
                         <li className={location.pathname === "/flexiblefloorhandlers/" ? "nav-item active" : "nav-item"}>
                             <a className="nav-link" href="/flexiblefloorhandlers/">Home </a>
                         </li>
-                        <li className={location.pathname === "/flexiblefloorhandlers/about-owner" ? "nav-item active" : "nav-item"}>
-                            <a className="nav-link" href="/flexiblefloorhandlers/about-owner">About Owner</a>
+                        <li className={location.pathname === "/about-owner" ? "nav-item active" : "nav-item"}>
+                            <a className="nav-link" href="/about-owner">About Owner</a>
                         </li>
                         <li className={location.pathname === "/flexiblefloorhandlers/services" ? "nav-item active" : "nav-item"}>
                             <a className="nav-link" href="/flexiblefloorhandlers/services">Services</a>
