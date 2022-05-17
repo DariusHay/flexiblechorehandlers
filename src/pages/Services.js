@@ -10,6 +10,7 @@ import floor8 from '../components/Images/floor8.jpeg';
 import tree1 from '../components/Images/tree1.jpg';
 import tree2 from '../components/Images/tree2.jpg';
 
+
 const Services = () => {
     return (
         <div>
@@ -19,85 +20,70 @@ const Services = () => {
                         <h1 className="services-main text-center">
                             Our Services
                             </h1>
-                        <div className="underline mx-auto" style={{ marginTop: "10px", marginBottom: "20px", width: "220px" }}></div>
+                        <div className="underline mx-auto" style={{ marginTop: "10px", marginBottom: "30px", width: "220px" }}></div>
 
-                        <p style={{ marginBottom: "50px" }} className="services-main text-center"><i>Click Service for Details</i></p>
+                        <p className="services-main text-center"><i>If you need any services that are not listed here, please <a href="/contact">contact us</a> and we may be able to provide it for you!</i></p>
+
+                        <div className="dropdown" style={{ textAlign: "center", marginTop: "20px" }}>
+                            <a style={{ maxWidth: "100%"}} className="btn-about-us shadow dropdown-toggle center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
+                                scroll service into page view here
+                                    </a>
+
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                                <li><a className="dropdown-item" href="#carpetCleaning">Carpet Cleaning</a></li>
+                                <li><a className="dropdown-item" href="#cleaning">Carpet Cleaning/ Floor Cleaning</a></li>
+                                <li><a className="dropdown-item" href="#Dance">Dance Floor Rentals</a></li>
+                                <li><a className="dropdown-item" href="#carpet">Flooring Repairs & More</a></li>
+                                <li><a className="dropdown-item" href="#gutter">Gutter Installations</a></li>
+                                <li><a className="dropdown-item" href="#flooring">Lawn Care Service</a></li>
+                                <li><a className="dropdown-item" href="#metal">Metal Pick up Service</a></li>
+                                <li><a className="dropdown-item" href="#lawn"> Power Washing</a></li>
+                                <li><a className="dropdown-item" href="#roofing"> Roofing Needs</a></li>
+                                <li><a className="dropdown-item" href="#power"> Running Data Lines</a></li>
+                                <li><a className="dropdown-item" href="#screen"> Screen Enclosure Repair</a></li>
+                                <li><a className="dropdown-item" href="#running">Soffit Work</a></li>
+                                <li><a className="dropdown-item" href="#storage">Storage Needs</a></li>
+                                <li><a className="dropdown-item" href="#tree">Tree Work</a></li>
+                                <li><a className="dropdown-item" href="#tv">TV Wall Mounting</a></li>
+                                <li><a className="dropdown-item" href="#vehicle">Vehicle Storage</a></li>
+                                <li><a className="dropdown-item" href="#wooden">Wooden Privacy Fence Stain & Seal</a></li>
+                            </ul>
+                        </div>
+                        <p style={{ marginBottom: "50px", marginTop: "50px" }} id="carpetCleaning" className="services-main text-center"><i>Click Service for Details</i></p>
                     </div>
                     <div className="row mx-auto">
                         <div className="col-md-1"></div>
                         <div className="col-md-5">
-
-                            <p>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    Wooden Privacy Fence Stain and Seal
+                            <p id="Dance">
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample17" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Carpet cleaning
                                 </a>
                             </p>
-                            <div className="collapse" id="collapseExample">
+                            <div className="collapse" id="collapseExample17">
                                 <div className="card card-body">
-                                    <h5>Duration varies · Price varies</h5>
-                                    Stain colors will be provided for you to choose from on the day you schedule a Free quote/estimate best way to reach us for this service would either be over the phone or by email.
+                                    <h5>Duration varies · Starting at $90</h5>
+                                    Pure clean carpet cleaning by your friendly neighborhood handyman is a dedicated and
+                                    trustworthy service that strives in customer satisfaction. Email for consultation.
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
                             </div>
                             <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    Running data lines
+                                <a id="gutter" className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample16" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Dance Floor Rentals
                                 </a>
                             </p>
-                            <div className="collapse" id="collapseExample2">
+                            <div className="collapse" id="collapseExample16">
                                 <div className="card card-body">
                                     <h5>Duration varies · Price varies</h5>
-                                We have successfully run data lines to over 400 work stations for multiple multi-million-dollar
-                                 company's and will be happy to provide this service for you. Our pricing is negotiable and we will travel out of our service area. Please email to schedule a meet.
+                                    A dark oak dance floor rental is an amazing add-on to any special occasion with great music.
+                                    The price varies by location and hours/days needed. Please email for additional information.
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
                             </div>
-                            <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    Carpet cleaning/ Floor cleaning
-                                </a>
-                            </p>
-                            <div className="collapse" id="collapseExample3">
-                                <div className="card card-body">
-                                    <h5>Duration varies · Price varies</h5>
-                                Carpet cleaning/Floor cleaning pricing is by the square footage. $0.53 per square.
-                                Extra charges may apply if there is a need to replace any flooring that has permanent stains and or existing damage. Please email to start consultation.
-                                     <a className="number" href="tel:3215499824">321-549-9824</a>
-                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
-                                </div>
-                            </div>
-                            <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    TV wall mounting
-                                </a>
-                            </p>
-                            <div className="collapse" id="collapseExample4">
-                                <div className="card card-body">
-                                    <h5>Duration varies · Price varies</h5>
-                                Price varies on size of TV and location. Only servicing the Brevard County area. Able to install any Size with a money back guarantee
-                                if you are not satisfied with the service. Please email to get your TV mounted ASAP thank you.
-                                     <a className="number" href="tel:3215499824">321-549-9824</a>
-                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
-                                </div>
-                            </div>
-                            <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    Screen enclosure repair
-                                </a>
-                            </p>
-                            <div className="collapse" id="collapseExample5">
-                                <div className="card card-body">
-                                    <h5>Duration varies · Price varies</h5>
-                                This service is for repairs only not full installs. We are very flexible on pricing and enjoy this line of work. Will travel out of service area.
-                                Pictures of work needed is appreciated. Please email to get your service done today, thank you.
-                                     <a className="number" href="tel:3215499824">321-549-9824</a>
-                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
-                                </div>
-                            </div>
-                            <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <p id="metal" style={{ marginTop: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample6" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     Gutter installations
                                 </a>
                             </p>
@@ -110,53 +96,8 @@ const Services = () => {
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
                             </div>
-                            <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    Soffit work
-                                </a>
-                            </p>
-                            <div className="collapse" id="collapseExample7">
-                                <div className="card card-body">
-                                    <h5>Duration varies · Price varies</h5>
-                                Our Soffit work services are extremely affordable. We have worked on many businesses and houses
-                                providing excellent professional service that lasts. Warranty is available for this service. Email for service.
-                                     <a className="number" href="tel:3215499824">321-549-9824</a>
-                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
-                                </div>
-                            </div>
-                            <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    Roofing needs
-                                </a>
-                            </p>
-                            <div className="collapse" id="collapseExample8">
-                                <div className="card card-body">
-                                    <h5>Duration varies · Price varies</h5>
-                                        Free estimates based on location. Will travel out service area of Brevard County Florida.
-                                        Multiple years of experience and able to service any type and height.
-                                     <a className="number" href="tel:3215499824">321-549-9824</a>
-                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
-                                </div>
-                            </div>
-                            <p style={{ marginTop: "50px", marginBottom: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    flooring repairs and more
-                                </a>
-                            </p>
-                            <div className="collapse" id="collapseExample9">
-                                <div className="card card-body">
-                                    <h5>Duration varies · Price varies</h5>
-                                        We will do our best and use our resources to make sure we find the tile that matches your needs. We also do full installs.
-                                        Carpet, Tile, wood, and more. Email to schedule for free estimate (depending on location)
-                                     <a className="number" href="tel:3215499824">321-549-9824</a>
-                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-md-2"></div>
-                        <div className="col-md-4">
-                            <p>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <p id="roofing" style={{ marginTop: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample10" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     metal pick up service
                                 </a>
                             </p>
@@ -169,22 +110,36 @@ const Services = () => {
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
                             </div>
-                            <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    Tree Work
+                            <p id="screen" style={{ marginTop: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample8" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Roofing needs
                                 </a>
                             </p>
-                            <div className="collapse" id="collapseExample11">
+                            <div className="collapse" id="collapseExample8">
                                 <div className="card card-body">
                                     <h5>Duration varies · Price varies</h5>
-                                    Free estimates depending on location. We love what we do and take pride in making Florida Beautiful.
-                                    Our owner will personally make sure your needs are met and that you are happy with my service. Email for more information.
+                                        Free estimates based on location. Will travel out service area of Brevard County Florida.
+                                        Multiple years of experience and able to service any type and height.
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
                             </div>
-                            <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <p id="storage" style={{ marginTop: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample5" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Screen enclosure repair
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample5">
+                                <div className="card card-body">
+                                    <h5>Duration varies · Price varies</h5>
+                                This service is for repairs only not full installs. We are very flexible on pricing and enjoy this line of work. Will travel out of service area.
+                                Pictures of work needed is appreciated. Please email to get your service done today, thank you.
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
+                            <p id="tv" style={{ marginTop: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample12" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     storage needs
                                 </a>
                             </p>
@@ -197,8 +152,80 @@ const Services = () => {
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
                             </div>
-                            <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample13" role="button" aria-expanded="false" aria-controls="collapseExample">
+                            <p id="wooden" style={{ marginTop: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample4" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    TV wall mounting
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample4">
+                                <div className="card card-body">
+                                    <h5>Duration varies · Price varies</h5>
+                                Price varies on size of TV and location. Only servicing the Brevard County area. Able to install any Size with a money back guarantee
+                                if you are not satisfied with the service. Please email to get your TV mounted ASAP thank you.
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
+                            <p style={{ marginTop: "50px", marginBottom: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Wooden Privacy Fence Stain & Seal
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample">
+                                <div className="card card-body">
+                                    <h5>Duration varies · Price varies</h5>
+                                    Stain colors will be provided for you to choose from on the day you schedule a Free quote/estimate best way to reach us for this service would either be over the phone or by email.
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-md-2"></div>
+                        <div className="col-md-4">
+                            <p id="carpet">
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample3" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Carpet cleaning/ Floor cleaning
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample3">
+                                <div className="card card-body">
+                                    <h5>Duration varies · Price varies</h5>
+                                Carpet cleaning/Floor cleaning pricing is by the square footage. $0.53 per square.
+                                Extra charges may apply if there is a need to replace any flooring that has permanent stains and or existing damage. Please email to start consultation.
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
+                            <p id="flooring" style={{ marginTop: "50px", marginBottom: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample9" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Flooring Repairs & More
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample9">
+                                <div className="card card-body">
+                                    <h5>Duration varies · Price varies</h5>
+                                        We will do our best and use our resources to make sure we find the tile that matches your needs. We also do full installs.
+                                        Carpet, Tile, wood, and more. Email to schedule for free estimate (depending on location)
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
+                            <p id="lawn" style={{ marginTop: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample14" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    lawn care service
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample14">
+                                <div className="card card-body">
+                                    <h5>Duration varies · $100</h5>
+                                    The $100.00 pricing is monthly. We provide excellence in making your yard perfect. Mowing, Weed Eating, Edging and more can be provided at your convenience.
+                                    We service the Brevard County area. Please email for scheduling and any additional information.
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
+                            <p id="power" style={{ marginTop: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample13" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     Power Washing
                                 </a>
                             </p>
@@ -212,22 +239,50 @@ const Services = () => {
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
                             </div>
-                            <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample14" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    lawn care service
+                            <p id="running" style={{ marginTop: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample2" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Running data lines
                                 </a>
                             </p>
-                            <div className="collapse" id="collapseExample14">
+                            <div className="collapse" id="collapseExample2">
                                 <div className="card card-body">
-                                    <h5>Duration varies · $100</h5>
-                                    The $100.00 pricing is monthly. We provide excellence in making your yard perfect. Mowing, Weed Eating, Edging and more can be provided at your convenience.
-                                    We service the Brevard County area. Please email for scheduling and any additional information.
+                                    <h5>Duration varies · Price varies</h5>
+                                We have successfully run data lines to over 400 work stations for multiple multi-million-dollar
+                                 company's and will be happy to provide this service for you. Our pricing is negotiable and we will travel out of our service area. Please email to schedule a meet.
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
+                            <p id="tree" style={{ marginTop: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample7" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Soffit work
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample7">
+                                <div className="card card-body">
+                                    <h5>Duration varies · Price varies</h5>
+                                Our Soffit work services are extremely affordable. We have worked on many businesses and houses
+                                providing excellent professional service that lasts. Warranty is available for this service. Email for service.
+                                     <a className="number" href="tel:3215499824">321-549-9824</a>
+                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
+                                </div>
+                            </div>
+                            <p id="vehicle" style={{ marginTop: "50px" }}>
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample11" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                    Tree Work
+                                </a>
+                            </p>
+                            <div className="collapse" id="collapseExample11">
+                                <div className="card card-body">
+                                    <h5>Duration varies · Price varies</h5>
+                                    Free estimates depending on location. We love what we do and take pride in making Florida Beautiful.
+                                    Our owner will personally make sure your needs are met and that you are happy with my service. Email for more information.
                                      <a className="number" href="tel:3215499824">321-549-9824</a>
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
                             </div>
                             <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample">
+                                <a className="btn-about-us shadow center" data-bs-toggle="collapse" href="#collapseExample15" role="button" aria-expanded="false" aria-controls="collapseExample">
                                     vehicle storage
                                 </a>
                             </p>
@@ -240,42 +295,14 @@ const Services = () => {
                                     <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
                                 </div>
                             </div>
-                            <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample16" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    Dance Floor Rentals
-                                </a>
-                            </p>
-                            <div className="collapse" id="collapseExample16">
-                                <div className="card card-body">
-                                    <h5>Duration varies · Price varies</h5>
-                                    A dark oak dance floor rental is an amazing add-on to any special occasion with great music.
-                                    The price varies by location and hours/days needed. Please email for additional information.
-                                     <a className="number" href="tel:3215499824">321-549-9824</a>
-                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
-                                </div>
-                            </div>
-                            <p style={{ marginTop: "50px" }}>
-                                <a className="btn-about-us center" data-bs-toggle="collapse" href="#collapseExample17" role="button" aria-expanded="false" aria-controls="collapseExample">
-                                    Carpet cleaning
-                                </a>
-                            </p>
-                            <div className="collapse" id="collapseExample17">
-                                <div className="card card-body">
-                                    <h5>Duration varies · Starting at $90</h5>
-                                    Pure clean carpet cleaning by your friendly neighborhood handyman is a dedicated and
-                                    trustworthy service that strives in customer satisfaction. Email for consultation.
-                                     <a className="number" href="tel:3215499824">321-549-9824</a>
-                                    <a className="number" href="mailto:now.work.ready321@gmail.com" target="_blank">now.work.ready321@gmail.com</a>
-                                </div>
-                            </div>
                             <p style={{ marginTop: "50px", marginBottom: "50px" }} className="services-main"><i>If you need any services that aren't listed here feel free to give us
                             a call at <a style={{ textDecoration: "none" }} className="number" href="tel:3215499824">321-549-9824</a> and we may be able to provide it for you.</i></p>
                         </div>
                     </div>
                     <div className="row">
-                        <h1 className="services-main text-center">
+                        <h2 className="services-main text-center">
                             Some of Our Work
-                            </h1>
+                            </h2>
                         <div className="underline mx-auto" style={{ marginTop: "10px", marginBottom: "20px", width: "220px" }}></div>
                         <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">

@@ -18,7 +18,7 @@ const ExternalInfo = () => {
                         </h3>
                         <div className="underline mx-auto" style={{ marginTop: "30px", marginBottom: "50px"}}></div>
                         <h5 className="external-info" style={{ marginBottom: "40px" }}><i>What work can a Handyman perform in the State of Florida without a License?</i></h5>
-                        <a href='https://www.contractorcampus.com/what-can-a-handyman-legally-do-in-florida.html' target="_blank" className="btn-about-us" style={{
+                        <a href='https://www.contractorcampus.com/what-can-a-handyman-legally-do-in-florida.html' target="_blank" className="btn-about-us shadow" style={{
                             // display: "flex",
                             flexDirection: "column",
                             justifyContent: "center",
@@ -27,7 +27,7 @@ const ExternalInfo = () => {
                         <h5 className="external-info" style={{ marginBottom: "40px", marginTop: "40px" }}>
                             <i>What are Specialty Trades That Do Not Require a Certificate of Competency License (COC) in Brevard County?</i>
                         </h5>
-                        <a href='https://www.cocoafl.org/1551/Handyman-List' target="_blank" className="btn-about-us" style={{
+                        <a href='https://www.cocoafl.org/1551/Handyman-List' target="_blank" className="btn-about-us shadow" style={{
                             // display: "flex",
                             flexDirection: "column",
                             justifyContent: "center",

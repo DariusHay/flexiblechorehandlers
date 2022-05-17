@@ -23,7 +23,7 @@ const homeContent = () => {
                         </div>
                         <div className="col-md-2"></div>
                         <div className="col-md-2">
-                            <a href='/about-owner' className="btn-about-us d-flex" style={{
+                            <a href='/about-owner' className="btn-about-us shadow d-flex" style={{
                                 display: "flex",
                                 flexDirection: "column",
                                 justifyContent: "center",
@@ -32,7 +32,7 @@ const homeContent = () => {
                         </div>
                         <div className="col-md-1"></div>
                         <div className="col-md-2">
-                            <a href='/services' className="btn-about-us d-flex" style={{
+                            <a href='/services' className="btn-about-us shadow d-flex" style={{
                                 display: "flex",
                                 flexDirection: "column",
                                 justifyContent: "center",
@@ -41,7 +41,7 @@ const homeContent = () => {
                         </div>
                         <div className="col-md-1"></div>
                         <div className="col-md-2">
-                            <a href='#' className="btn-about-us d-flex" style={{
+                            <a href='#' className="btn-about-us shadow d-flex" style={{
                                 display: "flex",
                                 flexDirection: "column",
                                 justifyContent: "center",
