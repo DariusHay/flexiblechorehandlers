@@ -16,8 +16,8 @@ function App() {
         <Routes>
         <Route exact path="/flexiblefloorhandlers/" element={<Home />} />
         <Route exact path="/about-owner" element={<AboutOwner />} />
-        <Route exact path="flexiblefloorhandlers/services" element={<Services />} />
-        <Route exact path="flexiblefloorhandlers/contact" element={<Contact />} />
+        <Route exact path="/flexiblefloorhandlers/services" element={<Services />} />
+        <Route exact path="/flexiblefloorhandlers/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>
