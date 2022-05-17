@@ -13,10 +13,10 @@ const Footer = () => {
                     <div className="col-md-4">
                         <h6 style={{ textAlign: "center"}}>Quick Links</h6>
                         <hr/>
-                        <a href="/" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>Home</a>
-                        <a href="/about-owner" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>About Owner</a>
-                        <a href="/services" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>Services</a>
-                        <a href="/contact" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex", marginBottom: "30px" }}>Contact</a>
+                        <a href="/flexiblefloorhandlers/" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>Home</a>
+                        <a href="/flexiblefloorhandlers/about-owner" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>About Owner</a>
+                        <a href="/flexiblefloorhandlers/services" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>Services</a>
+                        <a href="/flexiblefloorhandlers/contact" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex", marginBottom: "30px" }}>Contact</a>
                     </div>
                     <div className="col-md-4">
                         <h6 style={{ textAlign:"center" }}>Contacts</h6>

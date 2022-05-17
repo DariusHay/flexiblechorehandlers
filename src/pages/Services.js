@@ -22,7 +22,7 @@ const Services = () => {
                             </h1>
                         <div className="underline mx-auto" style={{ marginTop: "10px", marginBottom: "30px", width: "220px" }}></div>
 
-                        <p className="services-main text-center"><i>If you need any services that are not listed here, please <a href="/contact">contact us</a> and we may be able to provide it for you!</i></p>
+                        <p className="services-main text-center"><i>If you need any services that are not listed here, please <a href="/flexiblefloorhandlers/contact">contact us</a> and we may be able to provide it for you!</i></p>
 
                         <div className="dropdown" style={{ textAlign: "center", marginTop: "20px" }}>
                             <a style={{ maxWidth: "100%"}} className="btn-about-us shadow dropdown-toggle center" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">

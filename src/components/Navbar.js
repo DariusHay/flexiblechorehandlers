@@ -17,17 +17,17 @@ const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto">
-                        <li className={location.pathname === "/" ? "nav-item active" : "nav-item"}>
-                            <a className="nav-link" href="/">Home </a>
+                        <li className={location.pathname === "/flexiblefloorhandlers/" ? "nav-item active" : "nav-item"}>
+                            <a className="nav-link" href="/flexiblefloorhandlers/">Home </a>
                         </li>
-                        <li className={location.pathname === "/about-owner" ? "nav-item active" : "nav-item"}>
-                            <a className="nav-link" href="/about-owner">About Owner</a>
+                        <li className={location.pathname === "/flexiblefloorhandlers/about-owner" ? "nav-item active" : "nav-item"}>
+                            <a className="nav-link" href="/flexiblefloorhandlers/about-owner">About Owner</a>
                         </li>
-                        <li className={location.pathname === "/services" ? "nav-item active" : "nav-item"}>
-                            <a className="nav-link" href="/services">Services</a>
+                        <li className={location.pathname === "/flexiblefloorhandlers/services" ? "nav-item active" : "nav-item"}>
+                            <a className="nav-link" href="/flexiblefloorhandlers/services">Services</a>
                         </li>
-                        <li className={location.pathname === "/contact" ? "nav-item active" : "nav-item"}>
-                            <a className="nav-link" href="/contact">Contact</a>
+                        <li className={location.pathname === "/flexiblefloorhandlers/contact" ? "nav-item active" : "nav-item"}>
+                            <a className="nav-link" href="/flexiblefloorhandlers/contact">Contact</a>
                         </li>
                     </ul>
                 </div>
