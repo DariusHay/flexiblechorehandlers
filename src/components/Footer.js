@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Footer = () => {
     return (
@@ -13,10 +14,10 @@ const Footer = () => {
                     <div className="col-md-4">
                         <h6 style={{ textAlign: "center"}}>Quick Links</h6>
                         <hr/>
-                        <a href="/flexiblefloorhandlers/" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>Home</a>
-                        <a href="/flexiblefloorhandlers/about-owner" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>About Owner</a>
-                        <a href="/flexiblefloorhandlers/services" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }}>Services</a>
-                        <a href="/flexiblefloorhandlers/contact" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex", marginBottom: "30px" }}>Contact</a>
+                        <Link to="/" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }} onClick={() => window.scrollTo(0, 0)}>Home</Link>
+                        <Link to="/about-owner" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }} onClick={() => window.scrollTo(0, 0)}>About Owner</Link>
+                        <Link to="/services" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex" }} onClick={() => window.scrollTo(0, 0)}>Services</Link>
+                        <Link to="/contact" className="footer-links" style={{ margin: "auto", justifyContent: "center", display: "flex", marginBottom: "30px" }} onClick={() => window.scrollTo(0, 0)}>Contact</Link>
                     </div>
                     <div className="col-md-4">
                         <h6 style={{ textAlign:"center" }}>Contacts</h6>

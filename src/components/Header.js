@@ -1,5 +1,7 @@
 import React from 'react';
 import Typed from 'react-typed';
+import { Link } from "react-router-dom";
+
 
 
 
@@ -16,7 +18,7 @@ const Header = () => {
         backSpeed={60}
         loop
         />
-        <a href='/flexiblefloorhandlers/contact' className="btn-main-offer">Contact Us</a>
+        <Link to='/contact' className="btn-main-offer">Contact Us</Link>
       </div>
     </div>
   )

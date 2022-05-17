@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import { Link } from "react-router-dom";
 
 const homeContent = () => {
     return (
@@ -23,30 +24,30 @@ const homeContent = () => {
                         </div>
                         <div className="col-md-2"></div>
                         <div className="col-md-2">
-                            <a href='/about-owner' className="btn-about-us shadow d-flex" style={{
+                            <Link to="/about-owner" className="btn-about-us shadow d-flex" style={{
                                 display: "flex",
                                 flexDirection: "column",
                                 justifyContent: "center",
                                 textAlign: "center"
-                            }}>Our Founder</a>
+                            }} onClick={() => window.scrollTo(0, 0)}>Our Founder</Link>
                         </div>
                         <div className="col-md-1"></div>
                         <div className="col-md-2">
-                            <a href='/services' className="btn-about-us shadow d-flex" style={{
+                            <Link to="/services" className="btn-about-us shadow d-flex" style={{
                                 display: "flex",
                                 flexDirection: "column",
                                 justifyContent: "center",
                                 textAlign: "center"
-                            }}>Our Services</a>
+                            }} onClick={() => window.scrollTo(0, 0)}>Our Services</Link>
                         </div>
                         <div className="col-md-1"></div>
                         <div className="col-md-2">
-                            <a href='#' className="btn-about-us shadow d-flex" style={{
+                            <Link to="/contact" className="btn-about-us shadow d-flex" style={{
                                 display: "flex",
                                 flexDirection: "column",
                                 justifyContent: "center",
                                 textAlign: "center"
-                            }}>Get in Touch</a>
+                            }} onClick={() => window.scrollTo(0, 0)}>Get in Touch</Link>
                         </div>
                     </div>
                 </div>

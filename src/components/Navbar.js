@@ -9,7 +9,7 @@ const Navbar = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
             <div className="container-fluid">
-                <a className="navbar-brand" href="/">Flexible Chore Hanlders</a>
+                <Link className="navbar-brand" to="/" onClick={() => window.scrollTo(0, 0)}>Flexible Chore Hanlders</Link>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     {/* <span className="navbar-toggler-icon" style={{ color: "#fff" }}></span> */}
                     <FontAwesomeIcon icon={faBars} style={{ color: "#fff" }}/>
@@ -17,17 +17,17 @@ const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto">
-                        <li className={location.pathname === "/flexiblefloorhandlers/" ? "nav-item active" : "nav-item"}>
-                            <a className="nav-link" href="/flexiblefloorhandlers/">Home </a>
+                        <li className={location.pathname === "/" ? "nav-item active" : "nav-item"}>
+                            <Link to="/" className="nav-link" onClick={() => window.scrollTo(0, 0)}>Home </Link>
                         </li>
                         <li className={location.pathname === "/about-owner" ? "nav-item active" : "nav-item"}>
-                            <Link className="nav-link" href="/about-owner">About Owner</Link>
+                            <Link to="/about-owner" className="nav-link" onClick={() => window.scrollTo(0, 0)}>About Owner</Link>
                         </li>
-                        <li className={location.pathname === "/flexiblefloorhandlers/services" ? "nav-item active" : "nav-item"}>
-                            <a className="nav-link" href="/flexiblefloorhandlers/services">Services</a>
+                        <li className={location.pathname === "/services" ? "nav-item active" : "nav-item"}>
+                            <Link to="/services" className="nav-link" onClick={() => window.scrollTo(0, 0)}>Services</Link>
                         </li>
-                        <li className={location.pathname === "/flexiblefloorhandlers/contact" ? "nav-item active" : "nav-item"}>
-                            <a className="nav-link" href="/flexiblefloorhandlers/contact">Contact</a>
+                        <li className={location.pathname === "/contact" ? "nav-item active" : "nav-item"}>
+                            <Link to="/contact" className="nav-link" onClick={() => window.scrollTo(0, 0)}>Contact</Link>
                         </li>
                     </ul>
                 </div>

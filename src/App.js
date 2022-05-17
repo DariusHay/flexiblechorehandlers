@@ -10,14 +10,14 @@ import Contact from './pages/Contact';
 
 function App() {
   return (
-    <Router>
+    <Router onUpdate={() => window.scrollTo(0, 0)}>
       <div>
         <Navbar />
         <Routes>
-        <Route exact path="/flexiblefloorhandlers/" element={<Home />} />
+        <Route exact path="/" element={<Home />} />
         <Route exact path="/about-owner" element={<AboutOwner />} />
-        <Route exact path="/flexiblefloorhandlers/services" element={<Services />} />
-        <Route exact path="/flexiblefloorhandlers/contact" element={<Contact />} />
+        <Route exact path="/services" element={<Services />} />
+        <Route exact path="/contact" element={<Contact />} />
         </Routes>
         <Footer />
       </div>
