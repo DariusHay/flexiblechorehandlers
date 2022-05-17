@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/flexiblefloorhandlers/static/css/main.37a16fbb.css",
+    "main.js": "/flexiblefloorhandlers/static/js/main.8261f8e5.js",
+    "static/js/787.5a3b87e3.chunk.js": "/flexiblefloorhandlers/static/js/787.5a3b87e3.chunk.js",
+    "static/media/suited.png": "/flexiblefloorhandlers/static/media/suited.7cceb5969b099630108b.png",
+    "static/media/floor4.jpg": "/flexiblefloorhandlers/static/media/floor4.9716108df45f0ed08ec1.jpg",
+    "static/media/tree2.jpg": "/flexiblefloorhandlers/static/media/tree2.be4fb2a85c2bc239a817.jpg",
+    "static/media/tree1.jpg": "/flexiblefloorhandlers/static/media/tree1.2686cf783a1dcc8eea62.jpg",
+    "static/media/floor7.jpeg": "/flexiblefloorhandlers/static/media/floor7.1ce88c0afdb825e54929.jpeg",
+    "static/media/floor6.jpeg": "/flexiblefloorhandlers/static/media/floor6.6a4deb9eccb86995dca7.jpeg",
+    "static/media/LLC2.png": "/flexiblefloorhandlers/static/media/LLC2.22f7f61215c721bb727a.png",
+    "static/media/floor8.jpeg": "/flexiblefloorhandlers/static/media/floor8.837c4fa9dcc42c7a115d.jpeg",
+    "static/media/floor3.jpg": "/flexiblefloorhandlers/static/media/floor3.5ce89df565f02a6b0a99.jpg",
+    "static/media/floor2.jpg": "/flexiblefloorhandlers/static/media/floor2.19ab70f268fabb861a87.jpg",
+    "static/media/Chores2.png": "/flexiblefloorhandlers/static/media/Chores2.30c775a4d32b370199f0.png",
+    "static/media/home-pic.jpg": "/flexiblefloorhandlers/static/media/home-pic.403a19a2405413b283eb.jpg",
+    "static/media/floor1.jpg": "/flexiblefloorhandlers/static/media/floor1.d932a1543a608da9142e.jpg",
+    "static/media/riding.jpg": "/flexiblefloorhandlers/static/media/riding.276935b163e48d843387.jpg",
+    "static/media/fun.jpg": "/flexiblefloorhandlers/static/media/fun.b8fb5de2c9a5e0368b09.jpg",
+    "static/media/floor5.jpg": "/flexiblefloorhandlers/static/media/floor5.72429175c46ada2405ba.jpg",
+    "index.html": "/flexiblefloorhandlers/index.html",
+    "main.37a16fbb.css.map": "/flexiblefloorhandlers/static/css/main.37a16fbb.css.map",
+    "main.8261f8e5.js.map": "/flexiblefloorhandlers/static/js/main.8261f8e5.js.map",
+    "787.5a3b87e3.chunk.js.map": "/flexiblefloorhandlers/static/js/787.5a3b87e3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.37a16fbb.css",
+    "static/js/main.8261f8e5.js"
+  ]
+}
