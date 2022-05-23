@@ -47,7 +47,7 @@ const AboutOwner = () => {
                             Dustin is the owner and operator of Flexible Chore Operators LLC. Dustin was born in Michigan and moved to Florida
                             at a young age. Growing up with an interest to be a Multi-Skilled Tradesman, he envisioned starting this business long age.
                             The name Flexible Chore Handlers started when Dustin was in elementary school, being taught how to make business cards, Dustin chose the name "chore handlers."
-                            He printed out as many cards as his teacher would let him and passed them out to every house on a 10-mile rode in his neighborhood.
+                            He printed out as many cards as his teacher would let him and passed them out to every house on a 10-mile road in his neighborhood.
                             That birthed his own little business as a child doing odd jobs from pulling weeds to cutting trees.
                             <br></br><br></br> In the workforce, Dustin has worked Landscaping, Tree Work, Roofing, Facility Specialty, Fence building, Plumbing,
                             Electrical, Concrete, Framing Wood, Metal Painting and more. He's worked for as many construction labor trade skilled jobs as possible to
