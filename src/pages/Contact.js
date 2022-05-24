@@ -40,7 +40,7 @@ const Contact = () => {
                                         <textarea rows="3" className="form-control" name="message" placeholder="Type your message..." required/>
                                  
                                     
-                                        <button type="submit" className="btn-about-us shadow w-100" required>Send Message</button>
+                                        <button type="submit" style={{ marginBottom: "20px" }} className="btn-about-us shadow w-100" required>Send Message</button>
                                
                                 </form>
                             </div>
