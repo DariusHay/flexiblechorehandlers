@@ -17,8 +17,8 @@ const Navbar = () => {
 
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ms-auto">
-                        <li className={location.pathname === "/" ? "nav-item active" : "nav-item"}>
-                            <Link to="/" className="nav-link" onClick={() => window.scrollTo(0, 0)}>Home </Link>
+                        <li className={location.pathname === "/flexiblechorehandlers" ? "nav-item active" : "nav-item"}>
+                            <Link to="/flexiblechorehandlers" className="nav-link" onClick={() => window.scrollTo(0, 0)} data-toggle="collapse" data-target="#navbarSupportedContent">Home </Link>
                         </li>
                         <li className={location.pathname === "/about-owner" ? "nav-item active" : "nav-item"}>
                             <Link to="/about-owner" className="nav-link" onClick={() => window.scrollTo(0, 0)}>About Owner</Link>

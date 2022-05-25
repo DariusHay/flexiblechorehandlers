@@ -21,7 +21,7 @@ const Contact = () => {
                                 <h6 className="external-info">Direct Message Form</h6>
                                 <hr />
                                 <form
-                                    action="https://formsubmit.co/acojnddigital@gmail.com" method="POST" 
+                                    action="https://formsubmit.co/now.work.ready321@gmail.com" method="POST" 
                                 >
                                     
                                         <label className="external-info mb-1">Full Name</label>
