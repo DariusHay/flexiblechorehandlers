@@ -16,7 +16,7 @@ const AboutOwner = () => {
                     <div className="col-md-1"></div>
                     <div className="col-md-4 text-center">
                         <img className="aboutImage" src={LLC} style={{ height: "300px", width: "300px", marginBottom: "40px", maxWidth: "100%", marginTop: "5px" }} />
-                        <p className="external-info" style={{ marginBottom: "20px" }}><i> Connect with Dustin on FaceBook!</i></p>
+                        {/* <p className="external-info" style={{ marginBottom: "20px" }}><i> Connect with Dustin on FaceBook!</i></p>
                         <a href="https://www.facebook.com/dustin.fortner.52" target="_blank" class="fa fa-facebook" style={{
                             padding: "10px",
                             fontSize: "30px",
@@ -25,7 +25,7 @@ const AboutOwner = () => {
                             color: "white",
                             marginBottom: "30px",
                             borderRadius: "70%"
-                        }}></a>
+                        }}></a> */}
 
                         <p className="external-info" style={{ marginBottom: "20px" }}><i> Like our business page on FaceBook!</i></p>
                         <a href="https://www.facebook.com/Flexible-Chore-Handlers-105522095382202" target="_blank" class="fa fa-facebook" style={{

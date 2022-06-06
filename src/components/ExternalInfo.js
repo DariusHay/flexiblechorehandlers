@@ -1,5 +1,5 @@
 import React from 'react';
-import LLC from '../components/Images/LLC2.png'
+import LLC from "../components/Images/LLC2.png"
 
 const ExternalInfo = () => {
     return (
@@ -10,7 +10,9 @@ const ExternalInfo = () => {
                         <h3 className="external-info">
                             Flexible Chore <br></br>Handlers LLC
                         </h3>
+                        <a href={LLC} target="_blank">
                         <img className="llcImage" src={LLC} style={{ height: "400px", width: "400px", marginTop: "20px", marginBottom: "40px" }}/>
+                        </a>
                     </div>
                     <div className="col-md-6 text-center">
                         <h3 className="external-info">

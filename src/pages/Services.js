@@ -403,7 +403,7 @@ const Services = () => {
                             Some of Our Work
                             </h2>
                         <div className="underline mx-auto" style={{ marginTop: "10px", marginBottom: "20px", width: "220px" }}></div>
-                        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                        <div id="carouselExampleCaptions" class="carousel carousel-dark slide" data-bs-ride="carousel">
                             <div class="carousel-indicators">
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -415,7 +415,7 @@ const Services = () => {
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="7" aria-label="Slide 8"></button>
                                 <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="8" aria-label="Slide 9"></button>
                             </div>
-                            <div class="carousel-inner">
+                            <div class="carousel-inner dark">
                                 <div class="carousel-item active">
                                     <img src={tree1} class="d-flex centered" alt="..." />
                                     <div class="carousel-caption d-none d-md-block">
